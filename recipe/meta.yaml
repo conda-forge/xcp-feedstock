@@ -1,4 +1,4 @@
-{% set version = "0.22.0" %}
+{% set version = "0.23.0" %}
 
 package:
   name: xcp
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/tarka/xcp/archive/v{{ version }}.tar.gz
-  sha256: 46c9632362b135d40dab97de459930d40fc12f98869a5d1489fdfc1ceda8c559
+  sha256: 386815c98475defc5b3823ea6c7a08ba661036364581a82865d9f8672968d40a
 
 build:
   skip: true  # [win]
@@ -29,7 +29,7 @@ about:
   license: GPL-2.0-or-later
   license_family: GPL
   license_file: COPYING
-  summary:  An extended cp
+  summary: An extended cp
 
 extra:
   recipe-maintainers:
