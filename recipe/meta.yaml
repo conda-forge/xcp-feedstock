@@ -1,4 +1,4 @@
-{% set version = "0.24.0" %}
+{% set version = "0.24.1" %}
 
 package:
   name: xcp
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/tarka/xcp/archive/v{{ version }}.tar.gz
-  sha256: 7dcafe78973bd0b00b16e8b92402c04e4850ea99ee573b980f83a8ae6701afe6
+  sha256: a49555f31d68955ebc948d5a6a3a4dc80774210f1200a1a50ecd58b7ae19758b
 
 build:
   skip: true  # [win]
